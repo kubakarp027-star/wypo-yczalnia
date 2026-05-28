@@ -2,11 +2,11 @@
 // DANE SAMOCHODÓW
 // ============================================
 const carsData = [
-    { id: 1, name: "Lexus IS220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 189, desc: "Elegancki sedan z napędem RWD. Idealny na dłuższe trasy.", category: "Sedan" },
+    { id: 1, name: "Lexus is220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 189, desc: "Elegancki sedan z napędem RWD. Idealny na dłuższe trasy.", category: "Sedan" },
     { id: 2, name: "Ford Ranger", image: "https://live.dealer-asset.co/images/pl3021/news/All-New-Ford-Ranger-Raptor_02.jpg?s=1024", price: 359, desc: "Luksusowy SUV z przestronnym wnętrzem i mocnym silnikiem.", category: "SUV" },
     { id: 3, name: "Mercedes C-Class", image: "https://www.autocentrum.pl/YXNhLWMudjkvCjpkYg57LWxSbngsFnQ-JwQpeC4UK3U4DT4kJBo3d3sMfG8sTW1qLV94NX5Ab2l_Wn4zfxRvPmEFKSUuED09PUUnOywGOHUtRiYnKlck", price: 249, desc: "Komfort i prestiż w jednym. Nowoczesne rozwiązania technologiczne.", category: "Sedan" },
-    { id: 4, name: "Ford Mustang", image: "https://www.ford.pl/content/dam/guxeu/rhd/central/cars/S650-Mustang/my26/column_cards/ford-eu-S650_Nite_Pony_CG_Thumbnail_1000x667.jpg", price: 429, desc: "Mocny silnik V8 i sportowy charakter. Poczuj adrenalinę!", category: "Sport" },
-    { id: 5, name: "Ford Transit", image: "https://galeria.bankier.pl/p/8/4/50cdad7515d425-768-460-30-299-2800-1679.webp", price: 399, desc: "Przestronny bus idealny na przeprowadzki lub transport grupowy.", category: "Bus" },
+    { id: 4, name: "Volkswagen Eos", image: "https://img.classistatic.de/api/v1/mo-prod/images/96/9612c198-a444-429c-8c1e-ff4ce247ac54?rule=mo-1600", price: 429, desc: "Mocny silnik V8 i sportowy charakter. Poczuj adrenalinę!", category: "Sport" },
+    { id: 5, name: "Ford C-Max", image: "https://i.ytimg.com/vi/G4NBY_efutE/maxresdefault.jpg", price: 399, desc: "Przestronny bus idealny na przeprowadzki lub transport grupowy.", category: "Bus" },
     { id: 6, name: "Toyota Corolla", image: "https://scene7.toyota.eu/is/image/toyotaeurope/COR0001a_25_WEB_CROP:Large-Landscape?ts=0&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha", price: 129, desc: "Ekonomiczny i niezawodny sedan. Świetny do miasta.", category: "Sedan" },
     { id: 7, name: "Volkswagen Tiguan", image: "https://www.vwpress.pl/sites/default/files/styles/lightbox_xxlarge/public/2020-03/Volkswagen_Tiguan_2020_3.jpg", price: 279, desc: "Rodzinny SUV z dużą ilością miejsca.", category: "SUV" },
     { id: 8, name: "Renault Trafic", image: "https://cdn.renault.pl/content/dam/RenaultPL/renault-pl/ModelRange/Trafic/renault-trafic-bus-9-miejsc-2024.png", price: 349, desc: "Przestronny bus 9-osobowy. Idealny na wycieczki.", category: "Bus" }
