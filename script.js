@@ -7,7 +7,7 @@ const carsData = [
     { id: 3, name: "Mercedes C-Class", image: "https://www.autocentrum.pl/YXNhLWMudjkvCjpkYg57LWxSbngsFnQ-JwQpeC4UK3U4DT4kJBo3d3sMfG8sTW1qLV94NX5Ab2l_Wn4zfxRvPmEFKSUuED09PUUnOywGOHUtRiYnKlck", price: 249, desc: "Komfort i prestiż w jednym. Nowoczesne rozwiązania technologiczne.", category: "Sedan" },
     { id: 4, name: "Volkswagen Eos", image: "https://img.classistatic.de/api/v1/mo-prod/images/96/9612c198-a444-429c-8c1e-ff4ce247ac54?rule=mo-1600", price: 429, desc: "Mocny silnik V8 i sportowy charakter. Poczuj adrenalinę!", category: "Sport" },
     { id: 5, name: "Ford C-Max", image: "https://i.ytimg.com/vi/G4NBY_efutE/maxresdefault.jpg", price: 399, desc: "Przestronny bus idealny na przeprowadzki lub transport grupowy.", category: "Bus" },
-    { id: 6, name: "Toyota Corolla", image: "https://scene7.toyota.eu/is/image/toyotaeurope/COR0001a_25_WEB_CROP:Large-Landscape?ts=0&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha", price: 129, desc: "Ekonomiczny i niezawodny sedan. Świetny do miasta.", category: "Sedan" },
+    { id: 6, name: "FORD MONDEO Mk4", image: "https://skradzione-samochody.pl/wp-content/uploads/domino16/DSC_0104.jpg", price: 129, desc: "Ekonomiczny i niezawodny sedan. Świetny do miasta.", category: "Sedan" },
     { id: 7, name: "Volkswagen Tiguan", image: "https://www.vwpress.pl/sites/default/files/styles/lightbox_xxlarge/public/2020-03/Volkswagen_Tiguan_2020_3.jpg", price: 279, desc: "Rodzinny SUV z dużą ilością miejsca.", category: "SUV" },
     { id: 8, name: "Renault Trafic", image: "https://cdn.renault.pl/content/dam/RenaultPL/renault-pl/ModelRange/Trafic/renault-trafic-bus-9-miejsc-2024.png", price: 349, desc: "Przestronny bus 9-osobowy. Idealny na wycieczki.", category: "Bus" }
 ];
