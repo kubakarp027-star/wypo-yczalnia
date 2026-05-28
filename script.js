@@ -2,7 +2,7 @@
 // DANE SAMOCHODÓW
 // ============================================
 const carsData = [
-    { id: 1, name: "Lexus is220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 189, desc: "Elegancki sedan z napędem RWD. Idealny na dłuższe trasy.", category: "Sedan" },
+    { id: 1, name: "Lexus IS220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 189, desc: "Elegancki sedan z napędem RWD. Idealny na dłuższe trasy.", category: "Sedan" },
     { id: 2, name: "Ford Ranger", image: "https://live.dealer-asset.co/images/pl3021/news/All-New-Ford-Ranger-Raptor_02.jpg?s=1024", price: 359, desc: "Luksusowy SUV z przestronnym wnętrzem i mocnym silnikiem.", category: "SUV" },
     { id: 3, name: "Mercedes C-Class", image: "https://www.autocentrum.pl/YXNhLWMudjkvCjpkYg57LWxSbngsFnQ-JwQpeC4UK3U4DT4kJBo3d3sMfG8sTW1qLV94NX5Ab2l_Wn4zfxRvPmEFKSUuED09PUUnOywGOHUtRiYnKlck", price: 249, desc: "Komfort i prestiż w jednym. Nowoczesne rozwiązania technologiczne.", category: "Sedan" },
     { id: 4, name: "Ford Mustang", image: "https://www.ford.pl/content/dam/guxeu/rhd/central/cars/S650-Mustang/my26/column_cards/ford-eu-S650_Nite_Pony_CG_Thumbnail_1000x667.jpg", price: 429, desc: "Mocny silnik V8 i sportowy charakter. Poczuj adrenalinę!", category: "Sport" },
