@@ -2,12 +2,12 @@
 // DANE SAMOCHODÓW
 // ============================================
 const carsData = [
-    { id: 1, name: "Lexus is220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 189, desc: "Elegancki sedan premium z oszczędnym silnikiem diesla i sportowym charakterem.", category: "Sedan" },
+    { id: 1, name: "Lexus is220d", image: "https://flib.samar.pl/700/000/752000d6a7c3e637c362560.webp", price: 289, desc: "Elegancki sedan premium z oszczędnym silnikiem diesla i sportowym charakterem.", category: "Sedan" },
     { id: 2, name: "Ford Ranger", image: "https://live.dealer-asset.co/images/pl3021/news/All-New-Ford-Ranger-Raptor_02.jpg?s=1024", price: 359, desc: "Solidny pickup stworzony do pracy i jazdy w trudnym terenie.", category: "SUV" },
-    { id: 3, name: "Mercedes C-Class", image: "https://www.autocentrum.pl/YXNhLWMudjkvCjpkYg57LWxSbngsFnQ-JwQpeC4UK3U4DT4kJBo3d3sMfG8sTW1qLV94NX5Ab2l_Wn4zfxRvPmEFKSUuED09PUUnOywGOHUtRiYnKlck", price: 249, desc: "Komfortowy i stylowy samochód klasy premium do codziennej jazdy.", category: "Sedan" },
-    { id: 4, name: "Volkswagen Eos", image: "https://img.classistatic.de/api/v1/mo-prod/images/96/9612c198-a444-429c-8c1e-ff4ce247ac54?rule=mo-1600", price: 429, desc: "Coupe-cabrio z elektrycznie składanym dachem i komfortowym wnętrzem.", category: "Sport" },
-    { id: 5, name: "Ford C-Max", image: "https://i.ytimg.com/vi/G4NBY_efutE/maxresdefault.jpg", price: 399, desc: "Praktyczny rodzinny minivan oferujący wygodę i dużą przestrzeń.", category: "Bus" },
-    { id: 6, name: "FORD MONDEO Mk4", image: "https://skradzione-samochody.pl/wp-content/uploads/domino16/DSC_0104.jpg", price: 129, desc: "Przestronny i wygodny sedan idealny na długie trasy i codzienną jazdę.", category: "Sedan" },
+    { id: 3, name: "Mercedes C-Class", image: "https://www.autocentrum.pl/YXNhLWMudjkvCjpkYg57LWxSbngsFnQ-JwQpeC4UK3U4DT4kJBo3d3sMfG8sTW1qLV94NX5Ab2l_Wn4zfxRvPmEFKSUuED09PUUnOywGOHUtRiYnKlck", price: 349, desc: "Komfortowy i stylowy samochód klasy premium do codziennej jazdy.", category: "Sedan" },
+    { id: 4, name: "Volkswagen Eos", image: "https://img.classistatic.de/api/v1/mo-prod/images/96/9612c198-a444-429c-8c1e-ff4ce247ac54?rule=mo-1600", price: 219, desc: "Coupe-cabrio z elektrycznie składanym dachem i komfortowym wnętrzem.", category: "Sport" },
+    { id: 5, name: "Ford C-Max", image: "https://i.ytimg.com/vi/G4NBY_efutE/maxresdefault.jpg", price: 199, desc: "Praktyczny rodzinny minivan oferujący wygodę i dużą przestrzeń.", category: "Bus" },
+    { id: 6, name: "FORD MONDEO Mk4", image: "https://skradzione-samochody.pl/wp-content/uploads/domino16/DSC_0104.jpg", price: 189, desc: "Przestronny i wygodny sedan idealny na długie trasy i codzienną jazdę.", category: "Sedan" },
 ];
 
 // ============================================
