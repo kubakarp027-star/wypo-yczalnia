@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0066ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Dakar Gorlice | Wypożyczalnia samochodów Gorlice</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sticky Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <i class="fas fa-car-side"></i> 
+            <span>Dakar Gorlice</span>
+        </div>
+        <div class="mobile-menu-btn" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Strona główna</a>
+            <a href="#cars">Oferta</a>
+            <a href="#features">Dlaczego my</a>
+            <a href="#location">Lokalizacja</a>
+            <a href="#contact">Kontakt</a>
+            <a href="tel:+48698794969" class="nav-phone"><i class="fas fa-phone-alt"></i> Zadzwoń</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Dakar Gorlice</h1>
+        <p>Wynajmij auto szybko i wygodnie – sprawdź naszą ofertę już dziś!</p>
+        <div class="hero-buttons">
+            <a href="#cars" class="btn"><i class="fas fa-key"></i> Zobacz ofertę</a>
+            <a href="tel:+48698794969" class="btn btn-outline"><i class="fas fa-phone-alt"></i> Zadzwoń</a>
+        </div>
+    </div>
+</section>
+
+<!-- OFERTA (samochody) -->
+<section id="cars" class="cars-section">
+    <div class="container">
+        <h2>Nasza flota</h2>
+        <div class="filter-bar">
+            <div class="filter-group">
+                <button class="filter-btn active" data-category="all">Wszystkie</button>
+                <button class="filter-btn" data-category="Sedan">Sedan</button>
+                <button class="filter-btn" data-category="SUV">SUV</button>
+                <button class="filter-btn" data-category="Sport">Sport</button>
+                <button class="filter-btn" data-category="Bus">Busy</button>
+                <button class="filter-btn" data-category="Pickup">Pickup</button>
+            </div>
+            <div class="filter-group sort-group">
+                <button class="sort-btn" data-sort="asc">Cena ↑</button>
+                <button class="sort-btn" data-sort="desc">Cena ↓</button>
+            </div>
+        </div>
+        <div class="cars-grid" id="carsGrid"></div>
+    </div>
+</section>
+
+<!-- DLACZEGO MY -->
+<section id="features" class="features-section">
+    <div class="container">
+        <h2>Dlaczego my?</h2>
+        <div class="features-grid">
+            <div class="feature-card scroll-reveal">
+                <div class="feature-icon"><i class="fas fa-tachometer-alt"></i></div>
+                <h3>Szybka i wygodna obsługa</h3>
+                <p>Formalności w 5 minut</p>
+            </div>
+            <div class="feature-card scroll-reveal">
+                <div class="feature-icon"><i class="fas fa-phone-alt"></i></div>
+                <h3>Całodobowy kontakt</h3>
+                <p>Jesteśmy dla Ciebie 24/7</p>
+            </div>
+            <div class="feature-card scroll-reveal">
+                <div class="feature-icon"><i class="fas fa-car"></i></div>
+                <h3>Szeroka flota</h3>
+                <p>Samochody osobowe i busy</p>
+            </div>
+            <div class="feature-card scroll-reveal">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Pełne ubezpieczenie</h3>
+                <p>OC, AC, Assistance</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- LOKALIZACJA + KONTAKT -->
+<section id="location" class="location-contact">
+    <div class="container">
+        <div class="grid-2col">
+            <div class="location-box scroll-reveal">
+                <h2>Lokalizacja</h2>
+                <div class="map-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1644.0844220928502!2d21.18081872136531!3d49.64781039705476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spl!2spl!4v1777925879558!5m2!1spl!2spl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="address-info">
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Adres:</strong> ul. Dolna 17, 38-300 Gorlice</p>
+                    <p><i class="fas fa-clock"></i> <strong>Godziny otwarcia:</strong> Całodobowe</p>
+                </div>
+            </div>
+            <div id="contact" class="contact-box scroll-reveal">
+                <h2>Kontakt</h2>
+                <div class="info-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Telefon</strong>
+                            <a href="tel:+48698794969">+48 698 794 969</a>
+                        </div>
+                    </div>
+                    
+                
+                <div class="emergency-note">
+                    <i class="fas fa-car-crash"></i>
+                    <p>Awaryjny numer 24h: <strong>+48 698 794 969</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MODAL - okno wynajmu -->
+<div id="rentModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalCarTitle">Wynajmij samochód</h2>
+            <span class="modal-close">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="modal-car-image">
+                <img id="modalCarImage" src="" alt="Samochód">
+            </div>
+            <div class="modal-pricing">
+                <h3><i class="fas fa-tag"></i> Cennik wynajmu</h3>
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span><i class="fas fa-calendar-day"></i> Dzień</span>
+                        <span id="priceDay" class="price-value"></span>
+                    </div>
+                    <div class="pricing-row highlight">
+                        <span><i class="fas fa-calendar-week"></i> Tydzień (7 dni) <span class="discount-badge">-15%</span></span>
+                        <span id="priceWeek" class="price-value"></span>
+                    </div>
+                    <div class="pricing-row highlight">
+                        <span><i class="fas fa-calendar-alt"></i> Miesiąc (30 dni) <span class="discount-badge">-25%</span></span>
+                        <span id="priceMonth" class="price-value"></span>
+                    </div>
+                </div>
+                <div class="modal-contact">
+                    <h3><i class="fas fa-phone-alt"></i> Rezerwacja telefoniczna</h3>
+                    <a href="tel:+48698794969" class="btn-phone">
+                        <i class="fas fa-phone"></i> Zadzwoń +48 698 794 969
+                    </a>
+                    <p class="contact-note">Rezerwacja dostępna również przez SMS i WhatsApp</p>
+                </div>
+                <div class="modal-note">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <strong>Co zawiera cena?</strong><br>
+                        - Ubezpieczenie OC/AC<br>
+                        - Assistance 24h<br>
+                        - Bez limitu kilometrów<br>
+                        - Mycie i przygotowanie pojazdu
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Floating Contact Button - widoczny na telefonach -->
+<div class="floating-contact">
+    <a href="tel:+48698794969" class="floating-btn phone-btn">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="#contact" class="floating-btn message-btn">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4><i class="fas fa-car"></i> Dakar Gorlice</h4>
+                <p>Profesjonalna wypożyczalnia samochodów</p>
+                <p>ul. Dolna 17, 38-300 Gorlice</p>
+            </div>
+            <div class="footer-col">
+                <h4>Nawigacja</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Strona główna</a></li>
+                    <li><a href="#cars">Nasza flota</a></li>
+                    <li><a href="#features">Dlaczego my</a></li>
+                    <li><a href="#location">Lokalizacja</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Dakar Gorlice | Wypożyczalnia samochodów</p>
+            <!--<p class="made-with">Projekt i wykonanie z <i class="fas fa-heart"></i> dla klientów</p>-->
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
